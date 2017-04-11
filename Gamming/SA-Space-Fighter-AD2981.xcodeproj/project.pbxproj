@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BA13B1B51D060423002D1180 /* alarm1.caf in Resources */ = {isa = PBXBuildFile; fileRef = BA13B1B41D060409002D1180 /* alarm1.caf */; };
 		BA15A7401D0666FE00E40AD0 /* CompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA15A73F1D0666FE00E40AD0 /* CompleteScene.swift */; };
-		BA15A7411D072A2500E40AD0 /* CompleteScene.swift in Resources */ = {isa = PBXBuildFile; fileRef = BA15A73F1D0666FE00E40AD0 /* CompleteScene.swift */; };
 		BA15A7431D076B6B00E40AD0 /* bossMusic.caf in Resources */ = {isa = PBXBuildFile; fileRef = BA15A7421D076B2C00E40AD0 /* bossMusic.caf */; };
 		BA15A7451D076FA100E40AD0 /* level1.caf in Resources */ = {isa = PBXBuildFile; fileRef = BA15A7441D076F9500E40AD0 /* level1.caf */; };
 		BA28F0501CFD25A300EC8925 /* PlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA28F04F1CFD25A300EC8925 /* PlayScene.sks */; };
@@ -32,11 +31,6 @@
 		BA7EF89D1D024D6600E3785A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = BA7EF89A1D024D6600E3785A /* spark.png */; };
 		BAA8738D1D08C2A7000C93BE /* bossExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = BAA8738C1D08C2A7000C93BE /* bossExplosion.sks */; };
 		BAB61A8E1CFD1F1C006C7025 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB61A8D1CFD1F1C006C7025 /* PlayScene.swift */; };
-		BAE12C021D029D4D00696072 /* AppDelegate.swift in Resources */ = {isa = PBXBuildFile; fileRef = BA2F15001CF8B96800BE254F /* AppDelegate.swift */; };
-		BAE12C031D029D4D00696072 /* PlayScene.swift in Resources */ = {isa = PBXBuildFile; fileRef = BAB61A8D1CFD1F1C006C7025 /* PlayScene.swift */; };
-		BAE12C051D029D4D00696072 /* GameScene.swift in Resources */ = {isa = PBXBuildFile; fileRef = BA2F15041CF8B96800BE254F /* GameScene.swift */; };
-		BAE12C061D029D4D00696072 /* GameViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = BA2F15061CF8B96800BE254F /* GameViewController.swift */; };
-		BAE12C081D029D4D00696072 /* EndScene.swift in Resources */ = {isa = PBXBuildFile; fileRef = BA7EF8941D024D2F00E3785A /* EndScene.swift */; };
 		BAE12C091D029D4D00696072 /* gameMusic3.caf in Resources */ = {isa = PBXBuildFile; fileRef = BABC1B471D029C7400FBC64D /* gameMusic3.caf */; };
 		BAE12C0E1D029D4D00696072 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA2F15261CF8B96800BE254F /* Info.plist */; };
 		BAE12C151D02A0DC00696072 /* explosion1.caf in Resources */ = {isa = PBXBuildFile; fileRef = BAE12C121D02A0C300696072 /* explosion1.caf */; };
@@ -272,14 +266,17 @@
 				TargetAttributes = {
 					BA2F14FC1CF8B96800BE254F = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = S66V9VG434;
+						DevelopmentTeam = 4BLWLFDFU8;
+						LastSwiftMigration = 0820;
 					};
 					BA2F15141CF8B96800BE254F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = BA2F14FC1CF8B96800BE254F;
 					};
 					BA2F151F1CF8B96800BE254F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = BA2F14FC1CF8B96800BE254F;
 					};
 				};
@@ -312,13 +309,7 @@
 				BA15A7451D076FA100E40AD0 /* level1.caf in Resources */,
 				BA15A7431D076B6B00E40AD0 /* bossMusic.caf in Resources */,
 				BA13B1B51D060423002D1180 /* alarm1.caf in Resources */,
-				BAE12C021D029D4D00696072 /* AppDelegate.swift in Resources */,
-				BAE12C031D029D4D00696072 /* PlayScene.swift in Resources */,
-				BAE12C051D029D4D00696072 /* GameScene.swift in Resources */,
 				BAA8738D1D08C2A7000C93BE /* bossExplosion.sks in Resources */,
-				BAE12C061D029D4D00696072 /* GameViewController.swift in Resources */,
-				BA15A7411D072A2500E40AD0 /* CompleteScene.swift in Resources */,
-				BAE12C081D029D4D00696072 /* EndScene.swift in Resources */,
 				BAE12C091D029D4D00696072 /* gameMusic3.caf in Resources */,
 				BAE12C0E1D029D4D00696072 /* Info.plist in Resources */,
 				BAE12C151D02A0DC00696072 /* explosion1.caf in Resources */,
@@ -512,11 +503,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4BLWLFDFU8;
 				INFOPLIST_FILE = "SA-Space-Fighter-AD2981/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tjc.SA-Space-Fighter-AD2981";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamming.flight.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -526,11 +520,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4BLWLFDFU8;
 				INFOPLIST_FILE = "SA-Space-Fighter-AD2981/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tjc.SA-Space-Fighter-AD2981";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamming.flight.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -543,6 +540,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tjc.SA-Space-Fighter-AD2981Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SA-Space-Fighter-AD2981.app/SA-Space-Fighter-AD2981";
 			};
 			name = Debug;
@@ -555,6 +553,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tjc.SA-Space-Fighter-AD2981Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SA-Space-Fighter-AD2981.app/SA-Space-Fighter-AD2981";
 			};
 			name = Release;
@@ -567,6 +566,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tjc.SA-Space-Fighter-AD2981UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "SA-Space-Fighter-AD2981";
 			};
 			name = Debug;
@@ -578,6 +578,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tjc.SA-Space-Fighter-AD2981UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "SA-Space-Fighter-AD2981";
 			};
 			name = Release;
